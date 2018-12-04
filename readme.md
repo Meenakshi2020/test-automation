@@ -1,13 +1,13 @@
 # Web & API Test Automation
  Features of the Framework
 -----
--  Use of 'Page Object Model' as Design pattern
--  Allure Reports with graphs and test execution details
+-  Use of `Page Object Model` as Design pattern
+-  `Allure` Reports with graphs and test execution details
 -  Screenshots for failed tests
 -  Logging
 -  Reading the test data and configuration parameters from config file using `typesafe` library
 -  Ability to choose browsers from Config file
--  Use of WebDriver Manager to manage the browser binaries, no need to supply the binaries anymore
+-  Use of `WebDriver Manager` to manage the browser binaries, no need to supply the binaries anymore
 
 
 Steps to Run
@@ -18,7 +18,7 @@ Steps to Run
 
 Test execution reports
 -----
-- The solution is developed to generate the Allure test results reports
+- The solution is developed to generate the `Allure` test results reports
 - The command to generate and view the report is `allure serve allure-results` from the project directory
 - It gives details like: Passed, Failed, Skipped, Total execution time, package, behaviour etc.
 
@@ -35,13 +35,13 @@ Technical Details
 
 Dependencies
 -----
-* Selenium: Selenium WebDriver library for UI automation.
-* TestNG: Test framework to run the automated tests.
-* Typesafe: This library is used for configuration management.
-* WebDriverManager: This library is used to automate the Selenium WebDriver binaries management.
-* Allure-testng: This library is used to integrate Allure reports with TestNG.
-* Rest-assured: This library is used to automate the REST API services.
-* Wiremock: This library is used to mock the un-implemented REST API services.
-* Logback: This library is used for logging.
+* `Selenium`: Selenium WebDriver library for UI automation.
+* `TestNG`: Test framework to run the automated tests.
+* `Typesafe`: This library is used for configuration management.
+* `WebDriverManager`: This library is used to automate the Selenium WebDriver binaries management.
+* `Allure-testng`: This library is used to integrate Allure reports with TestNG.
+* `Rest-assured`: This library is used to automate the REST API services.
+* `Wiremock`: This library is used to mock the un-implemented REST API services.
+* `Logback`: This library is used for logging.
 
 -----
