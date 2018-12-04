@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[%blue(%date{ISO8601})][%highlight(%-5level)] %msg %blue(%marker) %n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="org.eclipse" level="WARN">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+    <logger name="com.github" level="ERROR">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+    <logger name="org.eclipse.jetty.util.thread.QueuedThreadPool" level="ERROR" />
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
